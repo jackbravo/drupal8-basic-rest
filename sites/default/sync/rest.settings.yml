@@ -2,3 +2,21 @@ link_domain: null
 bc_entity_resource_permissions: false
 _core:
   default_config_hash: bwcdqlollZ-bMAg90HtLMFFBgY7UXJohIln7BICIooE
+resources:
+  'entity:node':
+    GET:
+      supported_formats:
+        - hal_json
+        - json
+        - xml
+      supported_auth:
+        - basic_auth
+        - cookie
+    POST:
+      supported_formats:
+        - hal_json
+        - json
+        - xml
+      supported_auth:
+        - basic_auth
+        - cookie
