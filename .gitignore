@@ -12,6 +12,7 @@
 core
 
 # Core's dependencies are managed with Composer.
+.idea
 vendor
 modules/contrib
 themes/contrib
