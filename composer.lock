@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b560207a5ba942bbcf784115c5fb9848",
-    "content-hash": "e71f57de7af6f87b63e0a7eb91ec38d4",
+    "hash": "d67889d22cf25cce93e6181def563104",
+    "content-hash": "a06edd3477df030a2b7d33ae4f9001fd",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -737,7 +737,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/admin_toolbar-8.x-1.17.zip",
-                "reference": null,
+                "reference": "8.x-1.17",
                 "shasum": "030dbb0cf65ae74e8a9c54d0fb2257112c2b16a5"
             },
             "require": {
@@ -872,6 +872,55 @@
                 "symfony"
             ],
             "time": "2016-06-29 06:04:48"
+        },
+        {
+            "name": "drupal/image_raw_formatter",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/image_raw_formatter",
+                "reference": "9b46f4782ddbe5f1e8a9dfbbf86f18d1d5f0491a"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "require-dev": {
+                "drupal/drupal": "8.x-dev@dev",
+                "php": ">5.4",
+                "phpunit/phpunit": "~3.7"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.x-dev",
+                    "datestamp": "1447852140"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Drupal\\image_raw_formatter\\": "src"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "enzo - Eduardo Garcia",
+                    "homepage": "https://www.drupal.org/user/294937",
+                    "email": "enzo@enzolutions.com"
+                }
+            ],
+            "description": "Image Raw Formatter for Drupal 8",
+            "homepage": "https://www.drupal.org/project/image_raw_formatter",
+            "support": {
+                "source": "http://cgit.drupalcode.org/image_raw_formatter"
+            },
+            "time": "2015-11-18 13:05:08"
         },
         {
             "name": "drupal/restui",
